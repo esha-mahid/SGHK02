@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Book your appointment</h1>
+        <title>myform</title>
+        </head>
+        <body>
+            <label for="name"> Family Name: </label>
+            <input type="text" id="name" name="name" required>
+            
+            <br />
+            <label for="contact">Contact number:</label>
+            <input type="number" id="contact" name="contact">
+            <br />
+
+            <label for="gender"> Gender: </label>
+            <select id="gender" name="gender">
+                <option value="male"> Male </option>
+                <option value="female"> Female </option>
+
+            </select>
+
+            <br />
+
+            <br />
+
+            <!--Radio buttons-->
+            <p><strong>Kindly let us know if you have any of the below issues</strong></p>
+            <input type="radio" id="option1" name="options" value="option1">
+            <label for="option1"> Option 1 </label>
+            <input type="radio" id="option2" name="options" value="option2">
+            <label for="option2"> Option 2 </label>
+
+            <hr><p><strong>Tick which time is suitable for you</strong></p>
+
+
+            <input type="checkbox" id="check1" name="check1" value="check1">
+            <label for="check1"> Morning </label>
+            <input type="checkbox" id="check2" name="check2" value="check2">
+            <label for="check2"> Evening </label>
+
+            <br />
+            <p><strong>Any special request? Kindly write down in the text box</strong></p>
+            <label for="message"> Message: </label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter message here" required> </textarea>
+
+            <br />
+
+            <button type="button" disabled>Click Me!</button>
+            <br />
+            <button type="submit"> Submit </button>
+
+        </body>
+
+</html>
