@@ -1,7 +1,7 @@
 let a =parseInt(prompt("Enter your total number out of 100"));
 
-if (a>101 && a<-1){
-    console.log("ERROR 404")
+if (a<=-1 || a>=101){
+    console.log("Pls enter corect number within 100")
 }
 else if(a>=90 && a<=100){
     console.log("Your Grade is A")
